@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import Home from './components/Home';
 
 
 function App() {
 
   return (
     <>
-     <Button>This is styled component button</Button>
+    <Home></Home>
     </>
   )
 }
