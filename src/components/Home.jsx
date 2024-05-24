@@ -15,7 +15,7 @@ export default class Home extends Component {
 
         <div className="contents">
           <h1>Dice Game</h1>
-          <Button>Play Now</Button>
+          <Button onClick={this.props.toggle}>Play Now</Button>
         </div>
       </Container>
     );
