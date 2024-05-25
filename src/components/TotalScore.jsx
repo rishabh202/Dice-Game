@@ -14,10 +14,24 @@ export default class TotalScore extends Component {
   }
 }
 
-
 const ScoreContainer = styled.div`
- h2{
-    font-size: 24px;
- }    
 
+text-align: center;
+max-width:  190px;
+
+  h2 {
+    font-family: Poppins;
+font-size: 100px;
+font-weight: 500;
+line-height: 100px;
+
+  }
+
+  p{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+
+  }
 `;
