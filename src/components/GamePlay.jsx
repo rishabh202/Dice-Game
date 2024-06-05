@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TotalScore from "./TotalScore";
 import styled from "styled-components";
 import NumberSelector from "./NumberSelector";
+import RoleDice from "./RoleDice";
 
 export default class GamePlay extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class GamePlay extends Component {
           <TotalScore />
           <NumberSelector />
         </div>
+        <RoleDice />
       </MainContainer>
     );
   }

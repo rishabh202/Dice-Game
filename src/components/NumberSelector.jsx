@@ -59,7 +59,7 @@ const Box = styled.div`
   place-items: center;
 
   background-color: ${(props) => (props.isSelected ? "black" : "white")};
-  color: ${(props) => (props.isSelected ? "white" : "black")};
+  color: ${(props) => (!props.isSelected ? "black" : "white")};
 
   font-family: Poppins;
   font-size: 24px;
