@@ -11,7 +11,7 @@ const RoleDice = () => {
   return (
     <DiceContainer>
       <div className="dice" onClick={() => generateRandomNumber(1,6)}>
-        <img src="/images/dice_1.png" alt="" />
+        <img src="/images/dice_1.png" alt="dice image"/>
       </div>
       <p>Click on Dice to roll</p>
     </DiceContainer>
