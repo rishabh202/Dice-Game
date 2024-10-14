@@ -18,6 +18,8 @@ export default class GamePlay extends Component {
   }
 }
 
+
+
 const MainContainer = styled.main`
 padding-top: 64px;
 
