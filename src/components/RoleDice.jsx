@@ -8,16 +8,9 @@ const RoleDice = () => {
         return Math.floor(Math.random() * (max - min) + min);
       };
 
-      const roleDice = () => 
-        {
-          const randomNumber = generateRandomNumber[1,7];
-          setCurrentDice((prev) => randomNumber);
-
-        }
-
   return (
     <DiceContainer>
-      <div className="dice" onClick={roleDice}>
+      <div className="dice" onClick={()=> generateRandomNumber(1,6)}>
         <img src={`/images/_${currentDice}.png`} alt="dice image"/>
       </div>
       <p>Click on Dice to roll</p>
